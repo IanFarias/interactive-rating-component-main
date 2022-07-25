@@ -1,0 +1,26 @@
+.rating-card {
+    width: 400px;
+    padding: 25px;
+
+    border-radius: 30px;
+    background-color: var(--dark-blue);
+}
+
+.rating-card .icon-container {
+    margin-bottom: 25px;
+}
+
+.rating-submitted {
+    display: none;
+    text-align: center;
+    padding: 5px 4px;
+}
+
+.feedback {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 5px 15px 2px 15px;
+    border-radius: 50px;
+    color: var(--primary);
+    background-color: hsl(208, 13%, 25%);
+}

@@ -1,0 +1,43 @@
+.rating-option-container > fieldset {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 35px;
+  border: none;
+}
+
+.rating-option {
+  color: var(--light-grey);
+  font-size: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: hsl(208, 13%, 25%);
+  cursor: pointer;
+}
+
+.rating-option:hover {
+  background-color: var(--light-grey);
+  color: var(--white);
+}
+
+.rating-option:focus-within {
+  box-shadow: 0px 0px 0px 2px;
+}
+
+.rating-option:focus-within,
+.rating-option-checked {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.rating-option > input[type="radio"] {
+  opacity: 0;
+  position: absolute;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
