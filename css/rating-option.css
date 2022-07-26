@@ -1,6 +1,6 @@
 .rating-option-container > fieldset {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 35px;
   border: none;
 }

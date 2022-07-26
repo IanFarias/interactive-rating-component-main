@@ -2,7 +2,7 @@
 const form = document.querySelector('#rating-form');
 const radioOptions = [...document.querySelectorAll('[name="rating"]')];
 
-radioOptions.forEach(option => option.addEventListener('change', ({target}) => {
+radioOptions.forEach(option => option.addEventListener('focus', ({target}) => {
     document.querySelector('.rating-option-checked')?.classList.remove('rating-option-checked');
     target.parentNode.classList.add('rating-option-checked');
     form.setAttribute('value', target.value)
