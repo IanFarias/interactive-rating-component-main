@@ -7,11 +7,16 @@
     --very-dark-blue: hsl(216, 12%, 8%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    color: var(--white);
+    font-size: 14px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
 
 .main {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
